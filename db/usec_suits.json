@@ -1,3 +1,6 @@
+Like this:
+
+```json
 [
   {
     "suiteId": "66043a3910bcdf80ff0e9f7c",
@@ -47,7 +50,7 @@
     "achievementRequirements": [],
     "price": 315000
   },
-      {
+  {
     "suiteId": "675698eafb0f45813a055a36",
     "loyaltyLevel": 3,
     "profileLevel": 43,
@@ -55,12 +58,29 @@
     "achievementRequirements": [],
     "price": 2000000
   },
-    {
+  {
     "suiteId": "6756997970afee6336051976",
     "loyaltyLevel": 3,
     "profileLevel": 40,
     "questRequirements": [],
     "achievementRequirements": [],
     "price": 1500000
+  },
+  {
+    "suiteId": "6750713a65b30e16220465d6",
+    "loyaltyLevel": 2,
+    "profileLevel": 33,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "price": 1100000
+  },
+  {
+    "suiteId": "675070a550f7ea9dc604afc7",
+    "loyaltyLevel": 2,
+    "profileLevel": 33,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "price": 700000
   }
 ]
+```
