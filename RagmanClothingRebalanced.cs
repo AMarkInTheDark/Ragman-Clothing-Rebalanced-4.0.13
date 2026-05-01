@@ -43,6 +43,8 @@ public class RagmanClothingRebalanced(
                 {
                     if (suit.SuiteId != patch.SuiteId) continue;
 
+                    suit.ExternalObtain = false;
+                    suit.InternalObtain = true;
                     suit.Requirements.LoyaltyLevel = patch.LoyaltyLevel;
                     suit.Requirements.ProfileLevel = patch.ProfileLevel;
                     suit.Requirements.QuestRequirements = patch.QuestRequirements;
