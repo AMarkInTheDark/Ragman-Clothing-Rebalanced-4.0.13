@@ -1,9 +1,11 @@
+@'
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>RagmanClothingRebalanced</AssemblyName>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SPTarkov.Server.Core">
@@ -17,3 +19,4 @@
     </Reference>
   </ItemGroup>
 </Project>
+'@ | Set-Content -Path "RagmanClothingRebalanced.csproj"
