@@ -1,5 +1,4 @@
-@'
-<Project Sdk="Microsoft.NET.Sdk">
+Set-Content -Path "RagmanClothingRebalanced.csproj" -Value '<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
@@ -18,5 +17,4 @@
       <HintPath>G:\SPT\SPT\SemanticVersioning.dll</HintPath>
     </Reference>
   </ItemGroup>
-</Project>
-'@ | Set-Content -Path "RagmanClothingRebalanced.csproj"
+</Project>'
