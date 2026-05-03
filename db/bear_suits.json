@@ -46,5 +46,21 @@
     "questRequirements": ["608974d01a66564e74191fc0"],
     "achievementRequirements": [],
     "price": 315000
+  },
+  {
+    "suiteId": "67506a0bf31909748c0dcdb6",
+    "loyaltyLevel": 2,
+    "profileLevel": 36,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "price": 1400000
+  },
+  {
+    "suiteId": "67506fe494cadd62770abbe6",
+    "loyaltyLevel": 2,
+    "profileLevel": 34,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "price": 900000
   }
 ]
