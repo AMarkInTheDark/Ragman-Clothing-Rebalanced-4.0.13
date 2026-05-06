@@ -14,6 +14,7 @@ public class SuitPatch
     public List<string> QuestRequirements { get; set; } = [];
     public List<string> AchievementRequirements { get; set; } = [];
     public int Price { get; set; } = 0;
+    public string Currency { get; set; } = "5449016a4bdc2d6f028b456f";
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 3)]
@@ -54,7 +55,7 @@ public class RagmanClothingRebalanced(
                         new()
                         {
                             Count = patch.Price,
-                            Tpl = "5449016a4bdc2d6f028b456f",
+                            Tpl = patch.Currency,
                             OnlyFunctional = true,
                             Type = "ItemRequirement"
                         }
