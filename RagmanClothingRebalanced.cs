@@ -46,6 +46,7 @@ public class RagmanClothingRebalanced(
 
                     suit.ExternalObtain = false;
                     suit.InternalObtain = true;
+                    suit.IsHiddenInPVE = false;
                     suit.Requirements.LoyaltyLevel = patch.LoyaltyLevel;
                     suit.Requirements.ProfileLevel = patch.ProfileLevel;
                     suit.Requirements.QuestRequirements = patch.QuestRequirements;
